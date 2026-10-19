@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "assembly": "PLANNING-DEMO",
+  "units": "meters_radians",
+  "sources": [
+    {
+      "id": "reference",
+      "path": "demo-reference.json",
+      "sha256": "c1a20944ab47e2677a3d95e0591a149a156441ff52c9fdde3e05baf7e5f36689"
+    }
+  ],
+  "pieces": [
+    {
+      "id": "piece1",
+      "source": "reference",
+      "root": "root1",
+      "drawing_item": "1"
+    },
+    {
+      "id": "piece2",
+      "source": "reference",
+      "root": "root2",
+      "drawing_item": "2"
+    },
+    {
+      "id": "piece3",
+      "source": "reference",
+      "root": "root3",
+      "drawing_item": "3"
+    }
+  ],
+  "parts": [
+    {
+      "id": "plain",
+      "file": "PLANNING-DEMO-01.SLDPRT",
+      "mode": "copy",
+      "kind": "pipe",
+      "quantity": 2,
+      "library": {
+        "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 3 S10.SLDPRT",
+        "configuration": "Default",
+        "sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02"
+      },
+      "identity_reviewed": true,
+      "reuse_identity": {
+        "template_sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02",
+        "configuration": "Default",
+        "material": "304/304L",
+        "dimensions": {
+          "stock_length_m": 0.254,
+          "od_m": 0.0889,
+          "id_m": 0.082804,
+          "wall_m": 0.003048000000000002
+        },
+        "end_features": [
+          {
+            "type": "plain",
+            "end": "start"
+          },
+          {
+            "type": "plain",
+            "end": "finish"
+          }
+        ],
+        "openings": [],
+        "properties": {
+          "schedule": 10,
+          "Material ID": "06030612322"
+        }
+      },
+      "properties": {
+        "Customer": "",
+        "Description": "SYNTHETIC EXAMPLE, PIPE 3 SCH10",
+        "Job Number": "",
+        "Item Number": "",
+        "DrawnBy": "",
+        "Part Description": "PIPE 3 SCH10",
+        "Material": "304/304L",
+        "Number": "PLANNING-DEMO-01",
+        "MaterialQty": "Use actual length dimension link when modeled",
+        "Material ID": "06030612322",
+        "Drawn By": "",
+        "Drawn Date": "",
+        "MakeOrBuy": "M",
+        "Revision": ""
+      }
+    },
+    {
+      "id": "opened",
+      "file": "PLANNING-DEMO-02.SLDPRT",
+      "mode": "copy",
+      "kind": "pipe",
+      "quantity": 1,
+      "library": {
+        "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 3 S10.SLDPRT",
+        "configuration": "Default",
+        "sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02"
+      },
+      "identity_reviewed": true,
+      "reuse_identity": {
+        "template_sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02",
+        "configuration": "Default",
+        "material": "304/304L",
+        "dimensions": {
+          "stock_length_m": 0.254,
+          "od_m": 0.0889,
+          "id_m": 0.082804,
+          "wall_m": 0.003048000000000002
+        },
+        "end_features": [
+          {
+            "type": "plain",
+            "end": "start"
+          },
+          {
+            "type": "plain",
+            "end": "finish"
+          }
+        ],
+        "openings": [
+          {
+            "type": "round",
+            "diameter_m": 0.02,
+            "local_center_m": [
+              0.127,
+              0,
+              0
+            ],
+            "local_axis": [
+              0,
+              1,
+              0
+            ],
+            "depth_basis": "through near wall; verify interior stop"
+          }
+        ],
+        "properties": {
+          "schedule": 10,
+          "Material ID": "06030612322"
+        }
+      },
+      "properties": {
+        "Customer": "",
+        "Description": "SYNTHETIC EXAMPLE, PIPE 3 SCH10",
+        "Job Number": "",
+        "Item Number": "",
+        "DrawnBy": "",
+        "Part Description": "PIPE 3 SCH10",
+        "Material": "304/304L",
+        "Number": "PLANNING-DEMO-02",
+        "MaterialQty": "Use actual length dimension link when modeled",
+        "Material ID": "06030612322",
+        "Drawn By": "",
+        "Drawn Date": "",
+        "MakeOrBuy": "M",
+        "Revision": ""
+      }
+    }
+  ],
+  "occurrences": [
+    {
+      "id": "occ1",
+      "piece": "piece1",
+      "part": "plain",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "placement_basis": "Synthetic example datum, illustrative only"
+    },
+    {
+      "id": "occ2",
+      "piece": "piece2",
+      "part": "plain",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.4,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "placement_basis": "Synthetic example datum, illustrative only"
+    },
+    {
+      "id": "occ3",
+      "piece": "piece3",
+      "part": "opened",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.6000000000000001,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "placement_basis": "Synthetic example datum, illustrative only"
+    }
+  ],
+  "conflicts": [],
+  "instructions": "See component-plan-guide.md. Customer evidence is not authorization. Empty plans are incomplete.",
+  "notice": "Synthetic workflow demonstration only; no model is built."
+}

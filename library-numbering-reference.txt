@@ -1,0 +1,28 @@
+SPS flange and disc numbering reference
+Reviewed 2026-10-13, read-only. Source: H:\Engineering documents\MATERIAL PART NUMBERING UPDATE ver2.xlsx.
+Use the source workbook and verified model properties for actual assignments.
+
+Flanges sheet:
+Origin prefix: import F (default), domestic B, AIS A, country-restricted EX.
+Material code: 304=4, 316=6, 2205 duplex=D.
+Rating code: 150#=1, 300#=3, 600#=6, 900#=9, 1500#=15, OEM=OEM, plate flange=LPL.
+Product-line code: blind BL, slip-on SO, lap joint LJ, weld neck WN, socket weld SW, threaded TH.
+Size code: 1/2=12, 3/4=34, 1=1, 1-1/4=114, 1-1/2=112, 2=2, 2-1/2=212, 3=3, 4=4, 5=5, 6=6, 8=8, 10=10, 12=120, 14=14, 16=16, 18=18, 20=20, 24=24, 30=30, 36=36.
+Specific suffixes shown: flat face -FF, blind -B, with chamfer -C. Raised flange has no code entered.
+The sheet gives examples F4SQ414X2, B4SQ414X2, A4SQ414X2, and EX4SQ414X2. Do not force every OEM or square flange into a universal concatenation formula. Look up its established designation.
+Use Plate Flange Dim & PN for tabulated plate-flange dimensions and identifiers, and Flange Xref for OEM/customer cross-references.
+
+Disc sheet:
+Pattern indicated: D + material code + thickness code + X + OD code.
+Material code: 304=4, 316=6.
+Thickness codes explicitly shown: 10 GA=10, 7 GA=7, 3/16=316, 1/4=14, 3/8=38.
+OD codes use the workbook's established mapping, including fractional codes and some decimal-style codes. They are not a universal fixed-width decimal conversion. Consult Disc & Ring Data and the actual library model.
+Disc & Ring Data also contains identifiers and thickness conventions not fully described in the Disc sheet; retain established identifiers rather than inventing conversions.
+
+Known reference inconsistencies that require verification:
+- Disc & Ring Data lists D610X338 as material 304 although the prefix suggests 316; the workbook flags this mismatch.
+- D47X1050 has a note questioning 7-gauge stainless thickness (0.179 versus 0.1875 inch).
+- Some OD text/code pairs differ from a straightforward decimal reading (for example 1.2 mapped to 114).
+Treat ambiguous mappings as unresolved, not as permission to change geometry, stock metadata, or material.
+
+Modified job components retain the source template ID in a provenance property. Their actual job part number is Assemblyname-XX. An existing stock ID must not be asserted for changed geometry unless the modified part's stock mapping has been verified.

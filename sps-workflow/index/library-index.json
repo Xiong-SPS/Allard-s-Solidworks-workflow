@@ -1,0 +1,2840 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-15T18:43:55.476183+00:00",
+  "units": "meters and radians; fields identify physical quantity",
+  "scope": "Verified local shortlist, not the complete SPS/PDM catalog. Unmeasured configurations are not interchangeable.",
+  "flange_policy": "PDM dimensional search is still required; cached matches do not establish absence of a better candidate.",
+  "entries": [
+    {
+      "part_number": "CAST0019",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\CASTINGS\\CAST0019.SLDPRT",
+      "sha256": "a5838e577b7f5be4c046302351911cdd78be9fa9519d11307cfb407c902ba23e",
+      "kind": "pipe_end",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "PIPE END, 6\" NST X 3.50\" LONG",
+      "aliases": [
+        "6 inch",
+        "NST",
+        "3.50 inch long",
+        "simplified thread"
+      ],
+      "geometry": {
+        "length_m": 0.0889
+      },
+      "properties": {
+        "Description": {
+          "raw": "PIPE END, 6\" NST X 3.50\" LONG",
+          "evaluated": "PIPE END, 6\" NST X 3.50\" LONG"
+        },
+        "Material ID": {
+          "raw": "CAST0019",
+          "evaluated": "CAST0019"
+        },
+        "MaterialQty": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Number": {
+          "raw": "CAST0019",
+          "evaluated": "CAST0019"
+        },
+        "Part Description": {
+          "raw": "",
+          "evaluated": ""
+        }
+      },
+      "other_configurations_not_measured": [
+        "CAST0019 WELD BEAD"
+      ],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": []
+    },
+    {
+      "part_number": "F4SQ534X3",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\FLANGES\\F_SQ\\F4SQ534X3.SLDPRT",
+      "sha256": "53d0238ba774ae2c1f42e10ae93dc76340cd9dc0917678ca69c956a9c65ce338",
+      "kind": "flange",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "FLANGE, SQUARE, AKRON 3",
+      "aliases": [
+        "Akron 3",
+        "Elkhart 3",
+        "Hale 3",
+        "4 inch pipe",
+        "square valve flange"
+      ],
+      "geometry": {
+        "square_m": 0.14605,
+        "bore_m": 0.0762,
+        "thickness_m": 0.0127,
+        "slot_circle_min_m": 0.15494,
+        "slot_circle_max_m": 0.155575,
+        "bolt_slot_width_m": 0.011938
+      },
+      "properties": {
+        "Description": {
+          "raw": "FLANGE, SQUARE, AKRON 3",
+          "evaluated": "FLANGE, SQUARE, AKRON 3"
+        },
+        "Material ID": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "MaterialQty": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Number": {
+          "raw": "F4SQ534X3",
+          "evaluated": "F4SQ534X3"
+        },
+        "Part Description": {
+          "raw": ".50T SST PLATE",
+          "evaluated": ".50T SST PLATE"
+        }
+      },
+      "other_configurations_not_measured": [
+        "Finished flange"
+      ],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": [
+        "ERP Material ID missing"
+      ]
+    },
+    {
+      "part_number": "I414A6",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\BUTTWELD FITTINGS\\90_LR-ELBOW\\I414A6.SLDPRT",
+      "sha256": "0294eac966deccc859b04c24694d27b28e0e26062470d42ab5a3b2d47d7fdb37",
+      "kind": "elbow",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "ELBOW, 6\" SC. 10 90\u00b0 LR, 304/304L",
+      "aliases": [
+        "Sch10",
+        "LR",
+        "90 degree"
+      ],
+      "geometry": {
+        "bend_radius_m": 0.2286,
+        "od_m": 0.168275,
+        "id_m": 0.1614678,
+        "angle_rad": 1.5707963267949
+      },
+      "properties": {
+        "Description": {
+          "raw": "ELBOW, 6\" SC. 10 90\u00b0 LR, \"SW-Material@I414A6.SLDPRT\"",
+          "evaluated": "ELBOW, 6\" SC. 10 90\u00b0 LR, 304/304L"
+        },
+        "Material ID": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "MaterialQty": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Number": {
+          "raw": "I414A6",
+          "evaluated": "I414A6"
+        },
+        "Part Description": {
+          "raw": "ELBOW, 6\" SC. 10 90\u00b0 LR",
+          "evaluated": "ELBOW, 6\" SC. 10 90\u00b0 LR"
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": [
+        "ERP Material ID missing"
+      ]
+    },
+    {
+      "part_number": "I414B8",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\BUTTWELD FITTINGS\\90_SR-ELBOW\\I414B8.SLDPRT",
+      "sha256": "eb63f2e1291180b92bd9f34e7cd111b950bfc624743cc463e0cb0ab953572625",
+      "kind": "elbow",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "ELBOW, 8\" SC. 10, 90\u00b0 SR, 304/304L",
+      "aliases": [
+        "Sch10",
+        "SR",
+        "90 degree"
+      ],
+      "geometry": {
+        "bend_radius_m": 0.2032,
+        "od_m": 0.219075,
+        "id_m": 0.2115566,
+        "angle_rad": 1.5707963267949
+      },
+      "properties": {
+        "Description": {
+          "raw": "ELBOW, 8\" SC. 10, 90\u00b0 SR, \"SW-Material@I414B8.SLDPRT\"",
+          "evaluated": "ELBOW, 8\" SC. 10, 90\u00b0 SR, 304/304L"
+        },
+        "Material ID": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "MaterialQty": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Number": {
+          "raw": "I414B8",
+          "evaluated": "I414B8"
+        },
+        "Part Description": {
+          "raw": "ELBOW, 8\" SC. 10, 90\u00b0 SR",
+          "evaluated": "ELBOW, 8\" SC. 10, 90\u00b0 SR"
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": [
+        "ERP Material ID missing"
+      ]
+    },
+    {
+      "part_number": "I414K8X6",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\BUTTWELD FITTINGS\\REDUCER\\I414K8X6.SLDPRT",
+      "sha256": "98eb2ea2c8efff0cf01d3e688dff8cf7f453d485d11be7d9fd5487071cb52a0b",
+      "kind": "reducer",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "REDUCER, CONC., 8\" X 6\" SCH. 10, 304/304L",
+      "aliases": [
+        "8 x 6",
+        "concentric",
+        "Sch10"
+      ],
+      "geometry": {
+        "length_m": 0.1524,
+        "small_od_m": 0.168275,
+        "large_od_m": 0.219075,
+        "shell_thickness_m": 0.0037592
+      },
+      "properties": {
+        "Description": {
+          "raw": "REDUCER, CONC., 8\" X 6\" SCH. 10, \"SW-Material@I414K8X6.SLDPRT\"",
+          "evaluated": "REDUCER, CONC., 8\" X 6\" SCH. 10, 304/304L"
+        },
+        "Material ID": {
+          "raw": "I414K8X6",
+          "evaluated": "I414K8X6"
+        },
+        "MaterialQty": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Number": {
+          "raw": "I414K8X6",
+          "evaluated": "I414K8X6"
+        },
+        "Part Description": {
+          "raw": "REDUCER, CONC., 8\" X 6\" SCH. 10",
+          "evaluated": "REDUCER, CONC., 8\" X 6\" SCH. 10"
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": []
+    },
+    {
+      "part_number": "PIPE 2.5 S10",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 2.5 S10.SLDPRT",
+      "sha256": "a53ad3988715db7c2d505fa4f4e21252c4b0f08d8e0009cd1fa2b169269a67b8",
+      "kind": "pipe_blank",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "PIPE, 2-1/2\" SC.10, 5.03\" 304/304L",
+      "aliases": [
+        "pipe",
+        "schedule 10",
+        "Sch10",
+        "2.5"
+      ],
+      "geometry": {
+        "od_m": 0.073025,
+        "id_m": 0.066929,
+        "wall_m": 0.003048000000000002,
+        "length_parameter_m": 0.127762
+      },
+      "properties": {
+        "Description": {
+          "raw": "PIPE, 2-1/2\" SC.10, \"D1@Boss-Extrude1\"\" \"SW-Material@PIPE 2.5 S10.SLDPRT\"",
+          "evaluated": "PIPE, 2-1/2\" SC.10, 5.03\" 304/304L"
+        },
+        "Material ID": {
+          "raw": "06030612320",
+          "evaluated": "06030612320"
+        },
+        "MaterialQty": {
+          "raw": "\"D1@Boss-Extrude1\"",
+          "evaluated": "5.03"
+        },
+        "Number": {
+          "raw": "PIPE 2.5 S10",
+          "evaluated": "PIPE 2.5 S10"
+        },
+        "Part Description": {
+          "raw": "PIPE, 2-1/2\" SC.10, \"D1@Boss-Extrude1\"\"",
+          "evaluated": "PIPE, 2-1/2\" SC.10, 5.03\""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": []
+    },
+    {
+      "part_number": "PIPE 3 S10",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 3 S10.SLDPRT",
+      "sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02",
+      "kind": "pipe_blank",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "PIPE, 3\" SC.10, 5.03\" 304/304L",
+      "aliases": [
+        "pipe",
+        "schedule 10",
+        "Sch10",
+        "3"
+      ],
+      "geometry": {
+        "od_m": 0.0889,
+        "id_m": 0.082804,
+        "wall_m": 0.003048000000000002,
+        "length_parameter_m": 0.127762
+      },
+      "properties": {
+        "Description": {
+          "raw": "PIPE, 3\" SC.10, \"D1@Boss-Extrude1\"\" \"SW-Material@PIPE 3 S10.SLDPRT\"",
+          "evaluated": "PIPE, 3\" SC.10, 5.03\" 304/304L"
+        },
+        "Material ID": {
+          "raw": "06030612322",
+          "evaluated": "06030612322"
+        },
+        "MaterialQty": {
+          "raw": "\"D1@Boss-Extrude1\"",
+          "evaluated": "5.03"
+        },
+        "Number": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Part Description": {
+          "raw": "PIPE, 3\" SC.10, \"D1@Boss-Extrude1\"\"",
+          "evaluated": "PIPE, 3\" SC.10, 5.03\""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": []
+    },
+    {
+      "part_number": "PIPE 4 S10",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 4 S10.SLDPRT",
+      "sha256": "f557417e4d54360dc2209d8b91e18ef0500518c6cb448ed7d065d1b23696c18d",
+      "kind": "pipe_blank",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "PIPE, 4\" SC. 10, 5.50\" 304/304L",
+      "aliases": [
+        "pipe",
+        "schedule 10",
+        "Sch10",
+        "4"
+      ],
+      "geometry": {
+        "od_m": 0.1143,
+        "id_m": 0.108204,
+        "wall_m": 0.003048000000000002,
+        "length_parameter_m": 0.1397
+      },
+      "properties": {
+        "Description": {
+          "raw": "PIPE, 4\" SC. 10, \"D1@Boss-Extrude1\"\" \"SW-Material@PIPE 4 S10.SLDPRT\"",
+          "evaluated": "PIPE, 4\" SC. 10, 5.50\" 304/304L"
+        },
+        "Material ID": {
+          "raw": "06030612326",
+          "evaluated": "06030612326"
+        },
+        "MaterialQty": {
+          "raw": "\"D1@Boss-Extrude1\"",
+          "evaluated": "5.50"
+        },
+        "Number": {
+          "raw": "PIPE 4 S10",
+          "evaluated": "PIPE 4 S10"
+        },
+        "Part Description": {
+          "raw": "PIPE, 4\" SC. 10, \"D1@Boss-Extrude1\"\"",
+          "evaluated": "PIPE, 4\" SC. 10, 5.50\""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": []
+    },
+    {
+      "part_number": "PIPE 5 S10",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 5 S10.SLDPRT",
+      "sha256": "ea202df5f7081db592c80957d487dfc1d70588a8e857e0cbe0167c1ec158bc66",
+      "kind": "pipe_blank",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "PIPE, 5\" SC. 10, 1.00\" 304/304L",
+      "aliases": [
+        "pipe",
+        "schedule 10",
+        "Sch10",
+        "5"
+      ],
+      "geometry": {
+        "od_m": 0.1413002,
+        "id_m": 0.134493,
+        "wall_m": 0.0034035999999999927,
+        "length_parameter_m": 0.0254
+      },
+      "properties": {
+        "Description": {
+          "raw": "PIPE, 5\" SC. 10, \"D1@Boss-Extrude1\"\" \"SW-Material@PIPE 5 S10.SLDPRT\"",
+          "evaluated": "PIPE, 5\" SC. 10, 1.00\" 304/304L"
+        },
+        "Material ID": {
+          "raw": "06030612328",
+          "evaluated": "06030612328"
+        },
+        "MaterialQty": {
+          "raw": "\"D1@Boss-Extrude1\"",
+          "evaluated": "1.00"
+        },
+        "Number": {
+          "raw": "PIPE 5 S10",
+          "evaluated": "PIPE 5 S10"
+        },
+        "Part Description": {
+          "raw": "PIPE, 5\" SC. 10, \"D1@Boss-Extrude1\"\"",
+          "evaluated": "PIPE, 5\" SC. 10, 1.00\""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": []
+    },
+    {
+      "part_number": "PIPE 6 S10",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 6 S10.SLDPRT",
+      "sha256": "014a0c8e95e0476a41f80ea3a0d7d9f4acc4175cfb8d3cb4442f72d75f74b38f",
+      "kind": "pipe_blank",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "PIPE, 6\" SC. 10, 6.00\" 304/304L",
+      "aliases": [
+        "pipe",
+        "schedule 10",
+        "Sch10",
+        "6"
+      ],
+      "geometry": {
+        "od_m": 0.168275,
+        "id_m": 0.1614678,
+        "wall_m": 0.0034036000000000066,
+        "length_parameter_m": 0.1524
+      },
+      "properties": {
+        "Description": {
+          "raw": "PIPE, 6\" SC. 10, \"D1@Boss-Extrude1\"\" \"SW-Material@PIPE 6 S10.SLDPRT\"",
+          "evaluated": "PIPE, 6\" SC. 10, 6.00\" 304/304L"
+        },
+        "Material ID": {
+          "raw": "06030612330",
+          "evaluated": "06030612330"
+        },
+        "MaterialQty": {
+          "raw": "\"D1@Boss-Extrude1\"",
+          "evaluated": "6.00"
+        },
+        "Number": {
+          "raw": "PIPE 6 S10",
+          "evaluated": "PIPE 6 S10"
+        },
+        "Part Description": {
+          "raw": "PIPE, 6\" SC. 10, \"D1@Boss-Extrude1\"\"",
+          "evaluated": "PIPE, 6\" SC. 10, 6.00\""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": []
+    },
+    {
+      "part_number": "PIPE 8 S10",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 8 S10.SLDPRT",
+      "sha256": "9cf3594a7eaa8c0740d4b5df4fe93979ef658e4076cb4e06e9e14d13d2802212",
+      "kind": "pipe_blank",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "PIPE, 8\" SC. 10, 4.00\" 304/304L",
+      "aliases": [
+        "pipe",
+        "schedule 10",
+        "Sch10",
+        "8"
+      ],
+      "geometry": {
+        "od_m": 0.219075,
+        "id_m": 0.2115566,
+        "wall_m": 0.0037591999999999903,
+        "length_parameter_m": 0.1016
+      },
+      "properties": {
+        "Description": {
+          "raw": "PIPE, 8\" SC. 10, \"D1@Boss-Extrude1\"\" \"SW-Material@PIPE 8 S10.SLDPRT\"",
+          "evaluated": "PIPE, 8\" SC. 10, 4.00\" 304/304L"
+        },
+        "Material ID": {
+          "raw": "06030612332",
+          "evaluated": "06030612332"
+        },
+        "MaterialQty": {
+          "raw": "\"D1@Boss-Extrude1\"",
+          "evaluated": "4.00"
+        },
+        "Number": {
+          "raw": "PIPE 8 S10",
+          "evaluated": "PIPE 8 S10"
+        },
+        "Part Description": {
+          "raw": "PIPE, 8\" SC. 10, \"D1@Boss-Extrude1\"\"",
+          "evaluated": "PIPE, 8\" SC. 10, 4.00\""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": []
+    },
+    {
+      "part_number": "T4HCM3",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\THREADED FITTINGS\\COUPLING-HALF\\T4HCM3.SLDPRT",
+      "sha256": "0d0a9c210184bd507bb27ea1af5fb3ec98d35d6bc05b0b7930cc1fa5afe05ea0",
+      "kind": "half_coupling",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "HALF-COUPLING, 3\" NPT, MSS, 304",
+      "aliases": [
+        "3 inch",
+        "NPT",
+        "MSS304"
+      ],
+      "geometry": {
+        "length_m": 0.040386
+      },
+      "properties": {
+        "Description": {
+          "raw": "HALF-COUPLING, 3\" NPT, MSS, 304",
+          "evaluated": "HALF-COUPLING, 3\" NPT, MSS, 304"
+        },
+        "Material ID": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "MaterialQty": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Number": {
+          "raw": "T4HCM3",
+          "evaluated": "T4HCM3"
+        },
+        "Part Description": {
+          "raw": "",
+          "evaluated": ""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": [
+        "ERP Material ID missing"
+      ]
+    },
+    {
+      "part_number": "T4HCM34",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\THREADED FITTINGS\\COUPLING-HALF\\T4HCM34.SLDPRT",
+      "sha256": "1766b44e856661607a27450b125d887839d13f6febfe9fabf6e5fa60116d39b6",
+      "kind": "half_coupling",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "HALF-COUPLING, 3/4\" NPT, 304/304L",
+      "aliases": [
+        "3/4 inch",
+        "NPT",
+        "MSS304"
+      ],
+      "geometry": {
+        "length_m": 0.01905
+      },
+      "properties": {
+        "Description": {
+          "raw": "HALF-COUPLING, 3/4\" NPT, \"SW-Material@T4HCM34.SLDPRT\"",
+          "evaluated": "HALF-COUPLING, 3/4\" NPT, 304/304L"
+        },
+        "Material ID": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "MaterialQty": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Number": {
+          "raw": "T4HCM34",
+          "evaluated": "T4HCM34"
+        },
+        "Part Description": {
+          "raw": "HALF-COUPLING, 3/4\" NPT",
+          "evaluated": "HALF-COUPLING, 3/4\" NPT"
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "16186-262-06",
+        "verified_local_date": "2026-10-15",
+        "native_measurement": "tmp\\16186-262-06\\library-log.txt",
+        "native_measurement_sha256": "6d3358297e47576cc81c3058264851405ec56568f8179f4006d21322aae1da32",
+        "completed_audit": "16186-262-06\\native-validation.txt",
+        "completed_audit_sha256": "f54c1fca44a85a4cdc18c95cf6d37e07b15ad6cb9cde089dd5b5761131a76bd5"
+      },
+      "flags": [
+        "ERP Material ID missing"
+      ]
+    },
+    {
+      "part_number": "F4OEM0938",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\FLANGES\\F_OEM\\F4OEM0938.SLDPRT",
+      "sha256": "b00c8d2bf4d7a20d6c6995e80cefae01960128d8d8428f56b1f98c63a11f52ab",
+      "kind": "flange",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native measured library plate flange, OD9.5 ID5.56 thickness1, twelve .56 holes on8.25 PCD; counterbore/chamfer present",
+      "aliases": [
+        "9.5 inch OD",
+        "1 inch plate flange"
+      ],
+      "geometry": {
+        "od_m": 0.2413,
+        "id_m": 0.141224,
+        "thickness_m": 0.0254,
+        "bolt_circle_m": 0.20955,
+        "hole_diameter_m": 0.014224,
+        "hole_count": 12
+      },
+      "properties": {
+        "DESCRIPTION": {
+          "raw": "FLANGE, PLATE, 9.50\" OD X 5.56\" ID X 1.00\" THK X 8.25\" B.C.",
+          "evaluated": "FLANGE, PLATE, 9.50\" OD X 5.56\" ID X 1.00\" THK X 8.25\" B.C."
+        },
+        "Number": {
+          "raw": "F4OEM0938",
+          "evaluated": "F4OEM0938"
+        },
+        "OD/SQ": {
+          "raw": "\"D1@Sketch1@F4OEM0938.SLDPRT\"",
+          "evaluated": "9.50"
+        },
+        "ID": {
+          "raw": "\"D1@Sketch2@F4OEM0938.SLDPRT\"",
+          "evaluated": "5.56"
+        },
+        "BC_DIA": {
+          "raw": "\"D2@Sketch3@F4OEM0938.SLDPRT\"",
+          "evaluated": "8.25"
+        },
+        "BOLT_HOLE_DIA": {
+          "raw": "\"D1@Sketch3@F4OEM0938.SLDPRT\"",
+          "evaluated": ".56"
+        },
+        "SLOTTED": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "THICKNESS": {
+          "raw": "\"D1@Base Plate@F4OEM0938.SLDPRT\"",
+          "evaluated": "1.00"
+        },
+        "GROOVE": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        }
+      },
+      "other_configurations_not_measured": [
+        "Faced Flange"
+      ],
+      "provenance": {
+        "job": "75978",
+        "verified_local_date": "2026-10-16",
+        "native_measurement": "75978\\library-measurements.json",
+        "native_measurement_sha256": "3890c299407bb25070e385fbb25e4c31a00ffd27105f05656e8652a43460b0d1",
+        "completed_audit": "75978\\library-log.txt",
+        "completed_audit_sha256": "7a60e0ecdb6b114ffd7db68a4da6646d1c54f25d1f39ceddfb688850c5156f2d"
+      },
+      "flags": [
+        "Only Default measured; do not use Faced Flange based on this entry."
+      ]
+    },
+    {
+      "part_number": "PIPE 2 S10",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 2 S10.SLDPRT",
+      "sha256": "5d2c744fe20eb230c0bed62008302176d8d9663de7c226c60689dfaff0841393",
+      "kind": "pipe_blank",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "PIPE 2 S10"
+      ],
+      "geometry": {
+        "bounds_m": [
+          0,
+          -0.030162500000000002,
+          -0.030162500000000002,
+          0.0762,
+          0.030162500000000002,
+          0.030162500000000002
+        ],
+        "volume_m3": 3.814684992170479e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Description": {
+          "raw": "PIPE, 2\" SC. 10, \"D1@Boss-Extrude1\"\" \"SW-Material@PIPE 2 S10.SLDPRT\"",
+          "evaluated": "PIPE, 2\" SC. 10, 3.00\" 304/304L"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "MakeOrBuy": {
+          "raw": "M",
+          "evaluated": "M"
+        },
+        "Material": {
+          "raw": "\"SW-Material@PIPE 2 S10.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Part Description": {
+          "raw": "PIPE, 2\" SC. 10, \"D1@Boss-Extrude1\"\"",
+          "evaluated": "PIPE, 2\" SC. 10, 3.00\""
+        },
+        "Material ID": {
+          "raw": "06030612318",
+          "evaluated": "06030612318"
+        },
+        "304/304L": {
+          "raw": "06030612318",
+          "evaluated": "06030612318"
+        },
+        "316/316L": {
+          "raw": "06030812318",
+          "evaluated": "06030812318"
+        },
+        "Number": {
+          "raw": "PIPE 2 S10",
+          "evaluated": "PIPE 2 S10"
+        },
+        "MaterialQty": {
+          "raw": "\"D1@Boss-Extrude1\"",
+          "evaluated": "3.00"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "I414D5",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\BUTTWELD FITTINGS\\45_LR-ELBOW\\I414D5.SLDPRT",
+      "sha256": "d264b1b817fec9d08eea3a262e4405c3a5dcb4293faaa7bf499d4357c8b34254",
+      "kind": "elbow",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "I414D5"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.0706501,
+          0,
+          -0.0706501,
+          0.0706501,
+          0.1852419629969792,
+          0.10599396299697925
+        ],
+        "volume_m3": 0.00022161440564116494
+      },
+      "properties": {
+        "DESCRIPTION": {
+          "raw": "ELBOW, 5\" SC. 10, 45\u00c2\u00b0, \"SW-Material@I414D5.SLDPRT\"",
+          "evaluated": "ELBOW, 5\" SC. 10, 45\u00c2\u00b0, 304/304L"
+        },
+        "Customer": {
+          "raw": "E-ONE ",
+          "evaluated": "E-ONE "
+        },
+        "Job Number": {
+          "raw": "48680T ",
+          "evaluated": "48680T "
+        },
+        "Item Number": {
+          "raw": "01 ",
+          "evaluated": "01 "
+        },
+        "DrawnBy": {
+          "raw": "REB",
+          "evaluated": "REB"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Part Description": {
+          "raw": "ELBOW, 5\" SC. 10, 45\u00c2\u00b0",
+          "evaluated": "ELBOW, 5\" SC. 10, 45\u00c2\u00b0"
+        },
+        "Material": {
+          "raw": "\"SW-Material@I414D5.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Material ID": {
+          "raw": "I414D5",
+          "evaluated": "I414D5"
+        },
+        "Pipe Model 304/304L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Number": {
+          "raw": "I414D5",
+          "evaluated": "I414D5"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "other_configurations_not_measured": [
+        "SCRIBE OUTSIDE RADIUS",
+        "SCRIBE INSIDE RADIUS"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "I414B2",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\BUTTWELD FITTINGS\\90_SR-ELBOW\\I414B2.SLDPRT",
+      "sha256": "222d45a932b9323fccd13dbadc7898cd878c7642c2145748a0596f5345f94d95",
+      "kind": "elbow",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "I414B2"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.030162500000000002,
+          0,
+          -0.030162500000000002,
+          0.030162500000000002,
+          0.08096249999999999,
+          0.05080000000000008
+        ],
+        "volume_m3": 3.994728782387346e-05
+      },
+      "properties": {
+        "DESCRIPTION": {
+          "raw": "ELBOW, 2\" SC. 10  90\u00c2\u00b0 SR, \"SW-Material@I414B2.SLDPRT\"",
+          "evaluated": "ELBOW, 2\" SC. 10  90\u00c2\u00b0 SR, 304/304L"
+        },
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": "I414B2",
+          "evaluated": "I414B2"
+        },
+        "DrawnBy": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Part Description": {
+          "raw": "ELBOW, 2\" SC. 10  90\u00c2\u00b0 SR",
+          "evaluated": "ELBOW, 2\" SC. 10  90\u00c2\u00b0 SR"
+        },
+        "Material": {
+          "raw": "\"SW-Material@I414B2.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Number": {
+          "raw": "I414B2",
+          "evaluated": "I414B2"
+        },
+        "Material ID": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "I414K5X4",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\BUTTWELD FITTINGS\\REDUCER\\I414K5X4.SLDPRT",
+      "sha256": "16944161090b68a6e1a458b3d55731b5700850dd06dad0f7a7b171b1c64ed14c",
+      "kind": "reducer",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "I414K5X4"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.0706501,
+          -9.889442270710843e-18,
+          -0.0706501,
+          0.0706501,
+          0.127,
+          0.0706501
+        ],
+        "volume_m3": 0.00016913346643476282
+      },
+      "properties": {
+        "DESCRIPTION": {
+          "raw": "REDUCER, CONC., 5\" X 4\" SC. 10, \"SW-Material@I414K5X4.SLDPRT\"",
+          "evaluated": "REDUCER, CONC., 5\" X 4\" SC. 10, 304/304L"
+        },
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": "I414K5X4",
+          "evaluated": "I414K5X4"
+        },
+        "DrawnBy": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Part Description": {
+          "raw": "REDUCER, CONC., 5\" X 4\" SC. 10",
+          "evaluated": "REDUCER, CONC., 5\" X 4\" SC. 10"
+        },
+        "Material": {
+          "raw": "\"SW-Material@I414K5X4.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Number": {
+          "raw": "I414K5X4",
+          "evaluated": "I414K5X4"
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "F4SQ414X2",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\FLANGES\\F_SQ\\F4SQ414X2.SLDPRT",
+      "sha256": "c0263e4e6af10439867ddf45cb848bae7508e36d42013c8f58d51881d7c99467",
+      "kind": "flange",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "F4SQ414X2"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.053974999999999995,
+          0,
+          -0.053974999999999995,
+          0.053974999999999995,
+          0.0127,
+          0.053974999999999995
+        ],
+        "volume_m3": 0.00011142161050884736
+      },
+      "properties": {
+        "DESCRIPTION": {
+          "raw": "FLANGE, SQUARE, 2\" AKRON",
+          "evaluated": "FLANGE, SQUARE, 2\" AKRON"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Customer": {
+          "raw": "E-ONE",
+          "evaluated": "E-ONE"
+        },
+        "DrawnBy": {
+          "raw": "RPA",
+          "evaluated": "RPA"
+        },
+        "Job Number": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Item Number": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Material ID": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Pipe Model 304/304L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Pipe Model 316/316L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Other Pipe Model": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Number": {
+          "raw": "F4SQ414X2",
+          "evaluated": "F4SQ414X2"
+        },
+        "OD/SQ": {
+          "raw": "\"D1@Sketch1@F4SQ414X2.SLDPRT\"",
+          "evaluated": "4.25"
+        },
+        "ID": {
+          "raw": "\"D1@Sketch2@F4SQ414X2.SLDPRT\"",
+          "evaluated": "2.00"
+        },
+        "BC_DIA": {
+          "raw": "\"D2@Sketch3@F4SQ414X2.SLDPRT\"/\"D3@Sketch3@F4SQ414X2.SLDPRT\"",
+          "evaluated": "4.06/4.50"
+        },
+        "BOLT_HOLE_DIA": {
+          "raw": "\"D4@Sketch3@F4SQ414X2.SLDPRT\"",
+          "evaluated": ".47"
+        },
+        "SLOTTED": {
+          "raw": "YES",
+          "evaluated": "YES"
+        },
+        "THICKNESS": {
+          "raw": "\"D1@Boss-Extrude1@F4SQ414X2.SLDPRT\"",
+          "evaluated": ".50"
+        },
+        "GROOVE": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "Revision": {
+          "raw": "1",
+          "evaluated": "1"
+        },
+        "Part Description": {
+          "raw": ".50T SST PLATE",
+          "evaluated": ".50T SST PLATE"
+        },
+        "Material": {
+          "raw": "\"SW-MATERIAL\"",
+          "evaluated": "304/304L"
+        },
+        "Net_Area": {
+          "raw": "13.60 in2",
+          "evaluated": "13.60 in2"
+        },
+        "Total_Perimeter": {
+          "raw": "30.09 in",
+          "evaluated": "30.09 in"
+        },
+        "Weight": {
+          "raw": "\"SW-Mass@F4SQ414X2.SLDPRT\" lbs",
+          "evaluated": "1.97 lbs"
+        },
+        "Gross_Area": {
+          "raw": "18.06 in2",
+          "evaluated": "18.06 in2"
+        }
+      },
+      "other_configurations_not_measured": [
+        "Finished flange"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "F4SQ5X212",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\FLANGES\\F_SQ\\F4SQ5X212.SLDPRT",
+      "sha256": "89895aaf2ccd71fb90d649c11c7cd0cd6ab379c6548499e2ec4d6e3968faa271",
+      "kind": "flange",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "F4SQ5X212"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.0635,
+          0,
+          -0.0635,
+          0.06350000000000001,
+          0.0127,
+          0.0635
+        ],
+        "volume_m3": 0.0001549403605556364
+      },
+      "properties": {
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Description": {
+          "raw": "FLANGE, SQUARE, AKRON 2-1/2\" 304",
+          "evaluated": "FLANGE, SQUARE, AKRON 2-1/2\" 304"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Number": {
+          "raw": "F4SQ5X212",
+          "evaluated": "F4SQ5X212"
+        },
+        "OD/SQ": {
+          "raw": "\"D1@Sketch1@F4SQ5X212.SLDPRT\"",
+          "evaluated": "5.00"
+        },
+        "ID": {
+          "raw": "\"D3@Sketch1@F4SQ5X212.SLDPRT\"",
+          "evaluated": "2.50"
+        },
+        "BC_DIA": {
+          "raw": "\"D16@Sketch1@F4SQ5X212.SLDPRT\"",
+          "evaluated": "5.23"
+        },
+        "BOLT_HOLE_DIA": {
+          "raw": "\"D8@Sketch1@F4SQ5X212.SLDPRT\"",
+          "evaluated": ".47"
+        },
+        "SLOTTED": {
+          "raw": "YES",
+          "evaluated": "YES"
+        },
+        "THICKNESS": {
+          "raw": "\"D1@Boss-Extrude1@F4SQ5X212.SLDPRT\"",
+          "evaluated": ".50"
+        },
+        "GROOVE": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "other_configurations_not_measured": [
+        "FINISHED"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "F4SQ438X326",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\FLANGES\\F_SQ\\F4SQ438X326.SLDPRT",
+      "sha256": "e7df716bfe5314cc1b1ca1bcbc2ea3497d99fb99e3e1f3fa213e08885d8ae4ad",
+      "kind": "flange",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "F4SQ438X326"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.055626,
+          0,
+          -0.055625999999999995,
+          0.055626,
+          0.0127,
+          0.055625999999999995
+        ],
+        "volume_m3": 8.135294689132186e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Description": {
+          "raw": "FLANGE SQUARE 4.50SQX3.26ID",
+          "evaluated": "FLANGE SQUARE 4.50SQX3.26ID"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": "REB",
+          "evaluated": "REB"
+        },
+        "Checked By": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Number": {
+          "raw": "F4SQ438X326",
+          "evaluated": "F4SQ438X326"
+        },
+        "OD/SQ": {
+          "raw": "\"D3@Sketch1@F4SQ438X326.SLDPRT\"",
+          "evaluated": "4.38"
+        },
+        "ID": {
+          "raw": "\"D1@Sketch2@F4SQ438X326.SLDPRT\"",
+          "evaluated": "3.26"
+        },
+        "BC_DIA": {
+          "raw": "\"D1@Sketch2@F4SQ438X326.SLDPRT\"",
+          "evaluated": "3.26"
+        },
+        "BOLT_HOLE_DIA": {
+          "raw": "\"D6@Sketch2@F4SQ438X326.SLDPRT\"",
+          "evaluated": ".47"
+        },
+        "SLOTTED": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "THICKNESS": {
+          "raw": "\"D1@Boss-Extrude1@F4SQ438X326.SLDPRT\"",
+          "evaluated": ".50"
+        },
+        "GROOVE": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "AKA": {
+          "raw": "",
+          "evaluated": ""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "F4SQ438X326-S",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\FLANGES\\F_SQ\\F4SQ438X326-S.SLDPRT",
+      "sha256": "8dae0b6fa57c90e2e143b30c1e4a57d23be00a0f95362854c8020a97d229ea3b",
+      "kind": "flange",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "F4SQ438X326-S"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.053975,
+          0,
+          -0.053974999999999995,
+          0.053975,
+          0.0127,
+          0.053974999999999995
+        ],
+        "volume_m3": 6.14633478254104e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Description": {
+          "raw": "FLANGE SQUARE 4.25SQX3.26ID W/ SLOTS",
+          "evaluated": "FLANGE SQUARE 4.25SQX3.26ID W/ SLOTS"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Checked By": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Part Description": {
+          "raw": "1/2\" THICK SS PLATE",
+          "evaluated": "1/2\" THICK SS PLATE"
+        },
+        "Material": {
+          "raw": "\"SW-Material@F4SQ438X326-S.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Number": {
+          "raw": "F4SQ438X326-S",
+          "evaluated": "F4SQ438X326-S"
+        },
+        "OD/SQ": {
+          "raw": "\"D10@Sketch1@F4SQ438X326-S.SLDPRT\"",
+          "evaluated": "4.25"
+        },
+        "ID": {
+          "raw": "\"D18@Sketch1@F4SQ438X326-S.SLDPRT\"",
+          "evaluated": "3.26"
+        },
+        "BC_DIA": {
+          "raw": "\"D17@Sketch1@F4SQ438X326-S.SLDPRT\"",
+          "evaluated": "4.37"
+        },
+        "BOLT_HOLE_DIA": {
+          "raw": "\"D8@Sketch1@F4SQ438X326-S.SLDPRT\"",
+          "evaluated": ".60"
+        },
+        "SLOTTED": {
+          "raw": "YES",
+          "evaluated": "YES"
+        },
+        "THICKNESS": {
+          "raw": "\"D1@Boss-Extrude1@F4SQ438X326-S.SLDPRT\"",
+          "evaluated": ".50"
+        },
+        "GROOVE": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "AKA": {
+          "raw": "",
+          "evaluated": ""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "T4HCM14",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\THREADED FITTINGS\\COUPLING-HALF\\T4HCM14.SLDPRT",
+      "sha256": "3e7f97dfbdae02d79a70b3ea6bbc1a45d0712b4d2889091539442d9abf64c3f5",
+      "kind": "half_coupling",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "T4HCM14"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -6.732454509518202e-32,
+          -0.01066799999999999,
+          -0.010667999999999999,
+          0.012699999999999989,
+          0.01066799999999999,
+          0.010668000000000054
+        ],
+        "volume_m3": 2.956899287434467e-06
+      },
+      "properties": {
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Description": {
+          "raw": "HALF-COUPLING, 1/4\" NPT MSS 304",
+          "evaluated": "HALF-COUPLING, 1/4\" NPT MSS 304"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": "MCR",
+          "evaluated": "MCR"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Pipe Model 304/304L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Pipe Model 316/316L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Other Pipe Model": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Number": {
+          "raw": "T4HCM14",
+          "evaluated": "T4HCM14"
+        },
+        "Revision": {
+          "raw": "1",
+          "evaluated": "1"
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "1016670-BR",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Brackets\\E-ONE\\1016670-BR.SLDPRT",
+      "sha256": "f459fe2903cfc7ec36199c53505325790a122e7733bd656f2cd5660924d7c5e6",
+      "kind": "bracket",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "1016670-BR"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.06350000000000001,
+          -0.004546600000000022,
+          -0.0635,
+          0.0635,
+          0.05147803711658598,
+          0.0635
+        ],
+        "volume_m3": 9.425534560782004e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": "E-ONE",
+          "evaluated": "E-ONE"
+        },
+        "Description": {
+          "raw": "5.00\" x 5.00\" x 2.21\" 7Ga SST BRKT",
+          "evaluated": "5.00\" x 5.00\" x 2.21\" 7Ga SST BRKT"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": "KK",
+          "evaluated": "KK"
+        },
+        "Checked By": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Number": {
+          "raw": "1016670-BR",
+          "evaluated": "1016670-BR"
+        }
+      },
+      "other_configurations_not_measured": [
+        "DefaultSM-FLAT-PATTERN"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "1016670-146245-BR",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Brackets\\E-ONE\\1016670-146245-BR.SLDPRT",
+      "sha256": "e4bd41778b241e2376c3cf628d07143e1bbf9bdc67ce316ae65f593f6d4ccdbe",
+      "kind": "bracket",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "1016670-146245-BR"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.0047625,
+          -0.004762500000000016,
+          -0.06985,
+          0.0396875,
+          0.09493249999999999,
+          0.06985
+        ],
+        "volume_m3": 6.511017943742315e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": "E-ONE",
+          "evaluated": "E-ONE"
+        },
+        "Description": {
+          "raw": "BRACKET 1.75 X 3.5 X 5.5 X 7 GA 304L",
+          "evaluated": "BRACKET 1.75 X 3.5 X 5.5 X 7 GA 304L"
+        },
+        "Weight": {
+          "raw": "\"SW-Mass@1016670-146245-BR.SLDPRT\" lbs",
+          "evaluated": "1.15 lbs"
+        },
+        "Material": {
+          "raw": "\"SW-Material@1016670-146245-BR.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Part Description": {
+          "raw": "7 GA SHEET",
+          "evaluated": "7 GA SHEET"
+        },
+        "Drawn By": {
+          "raw": "DJS",
+          "evaluated": "DJS"
+        },
+        "Drawn Date": {
+          "raw": "09/23/24",
+          "evaluated": "09/23/24"
+        },
+        "Number": {
+          "raw": "1016670-146245-BR",
+          "evaluated": "1016670-146245-BR"
+        },
+        "Net_Area": {
+          "raw": "18.78 in2",
+          "evaluated": "18.78 in2"
+        },
+        "Total_Perimeter": {
+          "raw": "24.02 in",
+          "evaluated": "24.02 in"
+        },
+        "Gross_Area": {
+          "raw": "27.08 in2",
+          "evaluated": "27.08 in2"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "other_configurations_not_measured": [
+        "DefaultSM-FLAT-PATTERN"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "D414X412",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Brackets\\DISCS\\D414X412.SLDPRT",
+      "sha256": "8116f30b3a9e7592335c924db435ac42dfeeb71d20bc1282a1b9df3515b23331",
+      "kind": "disc",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "D414X412"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.057150000000000006,
+          -0.003175,
+          -0.057150000000000006,
+          0.057150000000000006,
+          0.003175,
+          0.057150000000000006
+        ],
+        "volume_m3": 6.515624796844948e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Description": {
+          "raw": "DISC, 4.50\" OD X .25\" THICK, \"SW-Material@D414X412.SLDPRT\"",
+          "evaluated": "DISC, 4.50\" OD X .25\" THICK, 304/304L"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": "CB",
+          "evaluated": "CB"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Part Description": {
+          "raw": "1/4\" THK. PLATE",
+          "evaluated": "1/4\" THK. PLATE"
+        },
+        "Material": {
+          "raw": "\"SW-Material@D414X412.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Net_Area": {
+          "raw": "15.90 in2",
+          "evaluated": "15.90 in2"
+        },
+        "Total_Perimeter": {
+          "raw": "14.14 in",
+          "evaluated": "14.14 in"
+        },
+        "Weight": {
+          "raw": "\"SW-Mass@D414X412.SLDPRT\" lbs",
+          "evaluated": "1.15 lbs"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        },
+        "Drawn By": {
+          "raw": "CB",
+          "evaluated": "CB"
+        },
+        "Drawn Date": {
+          "raw": "02/09/22",
+          "evaluated": "02/09/22"
+        },
+        "Number": {
+          "raw": "D414X412",
+          "evaluated": "D414X412"
+        },
+        "Gross_Area": {
+          "raw": "20.25 in2",
+          "evaluated": "20.25 in2"
+        },
+        "Material ID": {
+          "raw": "",
+          "evaluated": ""
+        }
+      },
+      "other_configurations_not_measured": [],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "1016670-146359-BR",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Brackets\\E-ONE\\1016670-146359-BR.SLDPRT",
+      "sha256": "baad1729d1753db02b2c57b00eb269996912536e353df76c9ec6fde23d6afa1f",
+      "kind": "bracket",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "1016670-146359-BR"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.004762500000000015,
+          -0.0047625000000000445,
+          -0.06985,
+          0.039687500000000264,
+          0.09595251320000012,
+          0.06985000000000009
+        ],
+        "volume_m3": 6.376018852450742e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": "E-ONE",
+          "evaluated": "E-ONE"
+        },
+        "Description": {
+          "raw": "BRACKET 1.75 X 3.5 X 5.5 X 7 GA 304L",
+          "evaluated": "BRACKET 1.75 X 3.5 X 5.5 X 7 GA 304L"
+        },
+        "Weight": {
+          "raw": "\"SW-Mass@1016670-146359-BR.SLDPRT\" lbs",
+          "evaluated": "1.12 lbs"
+        },
+        "Material": {
+          "raw": "\"SW-Material@1016670-146359-BR.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Part Description": {
+          "raw": "7 GA SHEET",
+          "evaluated": "7 GA SHEET"
+        },
+        "Drawn By": {
+          "raw": "WC",
+          "evaluated": "WC"
+        },
+        "Drawn Date": {
+          "raw": "10/30/24",
+          "evaluated": "10/30/24"
+        },
+        "Number": {
+          "raw": "1016670-146359-BR",
+          "evaluated": "1016670-146359-BR"
+        },
+        "Net_Area": {
+          "raw": "18.78 in2",
+          "evaluated": "18.78 in2"
+        },
+        "Total_Perimeter": {
+          "raw": "24.02 in",
+          "evaluated": "24.02 in"
+        },
+        "Gross_Area": {
+          "raw": "27.08 in2",
+          "evaluated": "27.08 in2"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        }
+      },
+      "other_configurations_not_measured": [
+        "DefaultSM-FLAT-PATTERN"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "1016670-145379-BR",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Brackets\\E-ONE\\1016670-145379-BR.SLDPRT",
+      "sha256": "b69286e994504bcfd6ef3322e04c3bc3f5d8f0fc6b8062244c055559de8b26b1",
+      "kind": "bracket",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "1016670-145379-BR"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.0047625,
+          -0.004762500000000016,
+          -0.06985,
+          0.0396875,
+          0.0841375,
+          0.06985
+        ],
+        "volume_m3": 5.790960109667318e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": "E-ONE",
+          "evaluated": "E-ONE"
+        },
+        "Description": {
+          "raw": "BRACKET 1.75 X 3.5 X 5.5 X 7 GA 304L",
+          "evaluated": "BRACKET 1.75 X 3.5 X 5.5 X 7 GA 304L"
+        },
+        "Weight": {
+          "raw": "\"SW-Mass@1016670-145379-BR.SLDPRT\" lbs",
+          "evaluated": "1.02 lbs"
+        },
+        "Material": {
+          "raw": "\"SW-Material@1016670-145379-BR.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Part Description": {
+          "raw": "7 GA SHEET",
+          "evaluated": "7 GA SHEET"
+        },
+        "Drawn By": {
+          "raw": "RSS",
+          "evaluated": "RSS"
+        },
+        "Drawn Date": {
+          "raw": "08/25/22",
+          "evaluated": "08/25/22"
+        },
+        "Number": {
+          "raw": "1016670-145379-BR",
+          "evaluated": "1016670-145379-BR"
+        },
+        "Net_Area": {
+          "raw": "18.78 in2",
+          "evaluated": "18.78 in2"
+        },
+        "Total_Perimeter": {
+          "raw": "24.02 in",
+          "evaluated": "24.02 in"
+        },
+        "Gross_Area": {
+          "raw": "27.08 in2",
+          "evaluated": "27.08 in2"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "other_configurations_not_measured": [
+        "DefaultSM-FLAT-PATTERN"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "1016670-144793-BR",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Brackets\\E-ONE\\1016670-144793-BR.SLDPRT",
+      "sha256": "54b9e9508302c36d8060814e81d999268a8c149669f4da699e375336ef2eec48",
+      "kind": "bracket",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "1016670-144793-BR"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.004762499999999999,
+          -0.004762500000000025,
+          -0.0635,
+          0.1222375,
+          0.03888739999999998,
+          0.0635
+        ],
+        "volume_m3": 9.627426341312559e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": "E-ONE",
+          "evaluated": "E-ONE"
+        },
+        "Description": {
+          "raw": "BRACKET 5 X 5 X 1.72 X 7 GA 304L",
+          "evaluated": "BRACKET 5 X 5 X 1.72 X 7 GA 304L"
+        },
+        "Weight": {
+          "raw": "\"SW-Mass@1016670-144793-BR.SLDPRT\" lbs",
+          "evaluated": "1.70 lbs"
+        },
+        "Material": {
+          "raw": "\"SW-Material@1016670-144793-BR.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Part Description": {
+          "raw": "7 GA SHEET",
+          "evaluated": "7 GA SHEET"
+        },
+        "Drawn By": {
+          "raw": "RSS",
+          "evaluated": "RSS"
+        },
+        "Drawn Date": {
+          "raw": "01/20/22",
+          "evaluated": "01/20/22"
+        },
+        "Number": {
+          "raw": "1016670-144793-BR",
+          "evaluated": "1016670-144793-BR"
+        },
+        "Net_Area": {
+          "raw": "31.24 in2",
+          "evaluated": "31.24 in2"
+        },
+        "Total_Perimeter": {
+          "raw": "27.37 in",
+          "evaluated": "27.37 in"
+        },
+        "Gross_Area": {
+          "raw": "31.97 in2",
+          "evaluated": "31.97 in2"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "other_configurations_not_measured": [
+        "DefaultSM-FLAT-PATTERN"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "part_number": "1016670-144480-BR",
+      "path": "C:\\SPS\\Libraries\\SolidWorks Brackets\\E-ONE\\1016670-144480-BR.SLDPRT",
+      "sha256": "3b4590b9653d5db71817524f934744bf3da1460dfea515d053e1084f8c836cc5",
+      "kind": "bracket",
+      "configuration": "Default",
+      "verification": "native_verified",
+      "material": "304/304L",
+      "material_database": "Custom Materials",
+      "description": "Native configuration measurement for 1016670-147883; see full feature/profile/solid evidence.",
+      "aliases": [
+        "1016670-144480-BR"
+      ],
+      "geometry": {
+        "bounds_m": [
+          -0.004762499999999999,
+          -0.004762500000000018,
+          -0.0635,
+          0.1222375,
+          0.02620009999999999,
+          0.0635
+        ],
+        "volume_m3": 8.860050859937559e-05
+      },
+      "properties": {
+        "Customer": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Description": {
+          "raw": "BRACKET 5 X 5 X 1.22 X 7 GA 304L",
+          "evaluated": "BRACKET 5 X 5 X 1.22 X 7 GA 304L"
+        },
+        "Weight": {
+          "raw": "\"SW-Mass@1016670-144480-BR.SLDPRT\" lbs",
+          "evaluated": "1.56 lbs"
+        },
+        "Material": {
+          "raw": "\"SW-Material@1016670-144480-BR.SLDPRT\"",
+          "evaluated": "304/304L"
+        },
+        "Part Description": {
+          "raw": "7 GA SHEET",
+          "evaluated": "7 GA SHEET"
+        },
+        "Drawn By": {
+          "raw": "RSS",
+          "evaluated": "RSS"
+        },
+        "Drawn Date": {
+          "raw": "06/21/21",
+          "evaluated": "06/21/21"
+        },
+        "Number": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Net_Area": {
+          "raw": "27.93 in2",
+          "evaluated": "27.93 in2"
+        },
+        "Total_Perimeter": {
+          "raw": "26.05 in",
+          "evaluated": "26.05 in"
+        },
+        "Gross_Area": {
+          "raw": "28.65 in2",
+          "evaluated": "28.65 in2"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "other_configurations_not_measured": [
+        "DefaultSM-FLAT-PATTERN"
+      ],
+      "provenance": {
+        "job": "1016670-147883",
+        "native_measurement": "1016670-147883\\library-measurements.json",
+        "native_measurement_sha256": "78f274eea3bd675127abef704ea9ed33321fc1736742013e03ae45f20f0babc0",
+        "completed_audit": "1016670-147883\\library-log.txt",
+        "completed_audit_sha256": "57793137b4991b3a4bbba8de80c05b9882aeb7b38077aae79d3b7468a2189f4b"
+      },
+      "flags": [
+        "Only this measured configuration is supported."
+      ]
+    },
+    {
+      "path": "C:\\SPS\\Libraries\\SolidWorks Brackets\\DISCS\\D414X718.SLDPRT",
+      "part_number": "D414X718",
+      "configuration": "Default",
+      "sha256": "28dd7cedcd6273a82d72d7d5ea72e323c086ed91a5337c72d0940eb14ed34dc5",
+      "verification": "native_verified",
+      "kind": "disc",
+      "material": "304/304L",
+      "geometry": {
+        "bounds_m": [
+          -0.0904875,
+          0,
+          -0.0904875,
+          0.0904875,
+          0.00635,
+          0.0904875
+        ],
+        "cylinder_radii_m": [
+          0.0904875
+        ],
+        "native_dimensions": {
+          "D1@Sketch1@D414X718.Part": 0.180975,
+          "D1@DISC@D414X718.Part": 0.00635
+        },
+        "od_m": 0.180975,
+        "thickness_m": 0.00635
+      },
+      "properties": {
+        "DESCRIPTION": {
+          "raw": "DISC 7.13 DIA X .25 THK 304L",
+          "evaluated": "DISC 7.13 DIA X .25 THK 304L"
+        },
+        "MakeOrBuy": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Net_Area": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Total_Perimeter": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Weight": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Customer": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "DrawnBy": {
+          "raw": "RSS",
+          "evaluated": "RSS"
+        },
+        "Gross_Area": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Part Description": {
+          "raw": ".25\" THK PLATE",
+          "evaluated": ".25\" THK PLATE"
+        },
+        "Material": {
+          "raw": "304/304L",
+          "evaluated": "304/304L"
+        },
+        "Number": {
+          "raw": "D414X718",
+          "evaluated": "D414X718"
+        }
+      },
+      "evidence": "C:\\Users\\mallard\\OneDrive - STAINLESS UNLIMITED, INC\\Documents\\CodexProjects\\Test1\\16186-262-02\\library-measurements.json",
+      "evidence_sha256": "d81e24d72ca199c52d6bcb8822e3c92b9f6518967fff2dc99cd82cefcff25f35",
+      "description": "",
+      "flags": [
+        "ERP Material ID missing"
+      ],
+      "aliases": []
+    },
+    {
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\BUTTWELD FITTINGS\\90_LR-ELBOW\\I414A2.SLDPRT",
+      "part_number": "I414A2",
+      "configuration": "Default",
+      "sha256": "addefeec2e93fa8f9a84715eb156961ccf8772652f838446bb7f256cf2dbf0f4",
+      "verification": "native_verified",
+      "kind": "elbow",
+      "material": "304/304L",
+      "geometry": {
+        "bounds_m": [
+          -0.030162500000000002,
+          0,
+          -0.030162500000000002,
+          0.030162500000000002,
+          0.1063625,
+          0.07620000000000035
+        ],
+        "cylinder_radii_m": [],
+        "native_dimensions": {
+          "D1@Sketch1@I414A2.Part": 0.060325,
+          "D3@Sketch1@I414A2.Part": 0.0027686,
+          "D2@Sketch1@I414A2.Part": 0.0762,
+          "D1@Revolve1@I414A2.Part": 1.5707963267949,
+          "D1@Plane1@I414A2.Part": 0.0762,
+          "D1@CUT PLANE@I414A2.Part": 0.78539816339745,
+          "D1@Sketch2@I414A2.Part": 0.060198,
+          "D2@Sketch2@I414A2.Part": 0.05491479999999999,
+          "D1@Revolve2@I414A2.Part": 1.5707963267949
+        }
+      },
+      "properties": {
+        "DESCRIPTION": {
+          "raw": "ELBOW, 2\" SCH. 10, 90\u00c2\u00b0 LR, 304/304L",
+          "evaluated": "ELBOW, 2\" SCH. 10, 90\u00c2\u00b0 LR, 304/304L"
+        },
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Part Description": {
+          "raw": "ELBOW, 2\" SCH. 10, 90\u00c2\u00b0 LR ",
+          "evaluated": "ELBOW, 2\" SCH. 10, 90\u00c2\u00b0 LR "
+        },
+        "Material": {
+          "raw": "304/304L",
+          "evaluated": "304/304L"
+        },
+        "Revision": {
+          "raw": "1",
+          "evaluated": "1"
+        },
+        "Material ID": {
+          "raw": "I414A2",
+          "evaluated": "I414A2"
+        },
+        "Pipe Model 304/304L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Pipe Model 316/316L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Other Pipe Model": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Number": {
+          "raw": "I414A2",
+          "evaluated": "I414A2"
+        },
+        "Drawn Date": {
+          "raw": "08/05/19",
+          "evaluated": "08/05/19"
+        },
+        "Drawn By": {
+          "raw": "JW",
+          "evaluated": "JW"
+        },
+        "MaterialQty": {
+          "raw": "1",
+          "evaluated": "1"
+        }
+      },
+      "evidence": "C:\\Users\\mallard\\OneDrive - STAINLESS UNLIMITED, INC\\Documents\\CodexProjects\\Test1\\16186-262-02\\library-measurements.json",
+      "evidence_sha256": "d81e24d72ca199c52d6bcb8822e3c92b9f6518967fff2dc99cd82cefcff25f35",
+      "description": "",
+      "flags": [],
+      "aliases": []
+    },
+    {
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\FLANGES\\F_OEM\\F4OEM1043X669CB.SLDPRT",
+      "part_number": "F4OEM1043X669CB",
+      "configuration": "DEFAULT",
+      "sha256": "408c3942aae8797b42578bc903b8dbe16d66d646562218cede7eaf13e6389132",
+      "verification": "native_verified",
+      "kind": "flange",
+      "material": "304/304L",
+      "geometry": {
+        "bounds_m": [
+          -0.132461,
+          -0.0079375,
+          -0.132461,
+          0.132461,
+          0.0079375,
+          0.132461
+        ],
+        "cylinder_radii_m": [
+          0.007150100000000003,
+          0.084963,
+          0.0968375000141683,
+          0.132461
+        ],
+        "native_dimensions": {
+          "D1@Sketch1@F4OEM1043X669CB.Part": 0.26492199999999994,
+          "D2@Sketch1@F4OEM1043X669CB.Part": 0.264922,
+          "D3@Sketch1@F4OEM1043X669CB.Part": 0.264922,
+          "D4@Sketch1@F4OEM1043X669CB.Part": 0.169926,
+          "D1@Boss-Extrude1@F4OEM1043X669CB.Part": 0.015875,
+          "D1@Sketch3@F4OEM1043X669CB.Part": 0.23495,
+          "D3@Sketch3@F4OEM1043X669CB.Part": 0.392699081698725,
+          "D4@Sketch3@F4OEM1043X669CB.Part": 0.014300199999999999,
+          "D3@CirPattern1@F4OEM1043X669CB.Part": 6.2831853071796,
+          "D1@CirPattern1@F4OEM1043X669CB.Part": 8,
+          "D1@Sketch4@F4OEM1043X669CB.Part": 0.1936750000283366,
+          "D2@Sketch4@F4OEM1043X669CB.Part": 0.04495573621708942,
+          "D3@Sketch4@F4OEM1043X669CB.Part": 0.10853274808176319,
+          "D1@Cut-Extrude2@F4OEM1043X669CB.Part": 0.00635
+        },
+        "od_m": 0.264922,
+        "bore_m": 0.169926,
+        "thickness_m": 0.015875,
+        "counterbore_m": 0.193675,
+        "counterbore_depth_m": 0.00635
+      },
+      "properties": {
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Description": {
+          "raw": "FLANGE 10.43 OD X 6.69 ID X .63 COUNTER BORE 304L",
+          "evaluated": "FLANGE 10.43 OD X 6.69 ID X .63 COUNTER BORE 304L"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": "",
+          "evaluated": ""
+        },
+        "Material ID": {
+          "raw": "Copy & Paste Material ID Here",
+          "evaluated": "Copy & Paste Material ID Here"
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Pipe Model 304/304L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Pipe Model 316/316L": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Other Pipe Model": {
+          "raw": "Unchecked",
+          "evaluated": "Unchecked"
+        },
+        "Part Description": {
+          "raw": "5/8 THK PLATE",
+          "evaluated": "5/8 THK PLATE"
+        },
+        "Material": {
+          "raw": "304/304L",
+          "evaluated": "304/304L"
+        },
+        "Number": {
+          "raw": "F4OEM1043X669CB",
+          "evaluated": "F4OEM1043X669CB"
+        },
+        "OD/SQ": {
+          "raw": "10.43",
+          "evaluated": "10.43"
+        },
+        "ID": {
+          "raw": "6.69",
+          "evaluated": "6.69"
+        },
+        "BC_DIA": {
+          "raw": "9.25",
+          "evaluated": "9.25"
+        },
+        "BOLT_HOLE_DIA": {
+          "raw": ".56",
+          "evaluated": ".56"
+        },
+        "SLOTTED": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "THICKNESS": {
+          "raw": ".63",
+          "evaluated": ".63"
+        },
+        "GROOVE": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "AKA": {
+          "raw": "N-80",
+          "evaluated": "N-80"
+        },
+        "Drawn By": {
+          "raw": "CAP",
+          "evaluated": "CAP"
+        },
+        "Drawn Date": {
+          "raw": "02/13/26",
+          "evaluated": "02/13/26"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        },
+        "Net_Area": {
+          "raw": "48.30 in2",
+          "evaluated": "48.30 in2"
+        },
+        "Total_Perimeter": {
+          "raw": "67.93 in",
+          "evaluated": "67.93 in"
+        },
+        "Weight": {
+          "raw": "7.96 lbs",
+          "evaluated": "7.96 lbs"
+        },
+        "Gross_Area": {
+          "raw": "108.78 in2",
+          "evaluated": "108.78 in2"
+        }
+      },
+      "evidence": "C:\\Users\\mallard\\OneDrive - STAINLESS UNLIMITED, INC\\Documents\\CodexProjects\\Test1\\16186-262-02\\library-measurements.json",
+      "evidence_sha256": "d81e24d72ca199c52d6bcb8822e3c92b9f6518967fff2dc99cd82cefcff25f35",
+      "description": "FLANGE 10.43 OD X 6.69 ID X .63 COUNTER BORE 304L",
+      "flags": [],
+      "aliases": [
+        "N-80"
+      ]
+    },
+    {
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\FLANGES\\F_SQ\\F4SQ263X1.SLDPRT",
+      "part_number": "F4SQ263X1",
+      "configuration": "Default",
+      "sha256": "9bff83e388831b8576e225d969a8f4c85ddc86b5750375906fe4a87018233f84",
+      "verification": "native_verified",
+      "kind": "flange",
+      "material": "304/304L",
+      "geometry": {
+        "bounds_m": [
+          -0.033401,
+          0,
+          -0.033401,
+          0.033401,
+          0.0127,
+          0.033401
+        ],
+        "cylinder_radii_m": [
+          0.004826,
+          0.00635,
+          0.0127
+        ],
+        "native_dimensions": {
+          "D1@Sketch1@F4SQ263X1.Part": 0.066802,
+          "D2@Sketch1@F4SQ263X1.Part": 0.066802,
+          "D1@Boss-Extrude1@F4SQ263X1.Part": 0.0127,
+          "D1@Sketch2@F4SQ263X1.Part": 0.0254,
+          "D1@Sketch3@F4SQ263X1.Part": 0.7853981633974502,
+          "D3@Sketch3@F4SQ263X1.Part": 0.069596,
+          "D2@Sketch3@F4SQ263X1.Part": 0.009651999999999999,
+          "D1@Fillet1@F4SQ263X1.Part": 0.00635
+        },
+        "od_m": 0.066802,
+        "bore_m": 0.169926,
+        "thickness_m": 0.0127,
+        "counterbore_m": 0.193675,
+        "counterbore_depth_m": 0.00635
+      },
+      "properties": {
+        "Description": {
+          "raw": "FLANGE, SQUARE, AKRON 1\"",
+          "evaluated": "FLANGE, SQUARE, AKRON 1\""
+        },
+        "MakeOrBuy": {
+          "raw": "P",
+          "evaluated": "P"
+        },
+        "Number": {
+          "raw": "F4SQ263X1",
+          "evaluated": "F4SQ263X1"
+        },
+        "OD/SQ": {
+          "raw": "2.63",
+          "evaluated": "2.63"
+        },
+        "ID": {
+          "raw": "1.00",
+          "evaluated": "1.00"
+        },
+        "BC_DIA": {
+          "raw": "2.74",
+          "evaluated": "2.74"
+        },
+        "BOLT_HOLE_DIA": {
+          "raw": ".38",
+          "evaluated": ".38"
+        },
+        "SLOTTED": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "THICKNESS": {
+          "raw": ".50",
+          "evaluated": ".50"
+        },
+        "GROOVE": {
+          "raw": "NO",
+          "evaluated": "NO"
+        },
+        "AKA": {
+          "raw": "1\" AKRON VALVE FLANGE",
+          "evaluated": "1\" AKRON VALVE FLANGE"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "evidence": "C:\\Users\\mallard\\OneDrive - STAINLESS UNLIMITED, INC\\Documents\\CodexProjects\\Test1\\16186-262-02\\library-measurements.json",
+      "evidence_sha256": "d81e24d72ca199c52d6bcb8822e3c92b9f6518967fff2dc99cd82cefcff25f35",
+      "description": "FLANGE, SQUARE, AKRON 1\"",
+      "flags": [
+        "ERP Material ID missing"
+      ],
+      "aliases": [
+        "1\" AKRON VALVE FLANGE"
+      ]
+    },
+    {
+      "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 1 S10.SLDPRT",
+      "part_number": "PIPE 1 S10",
+      "configuration": "Default",
+      "sha256": "8f2ecadebd0bcf40fca5aa95d0ace3dedff5867a0dbc1ad0b118f47f26e10c62",
+      "verification": "native_verified",
+      "kind": "pipe_blank",
+      "material": "304/304L",
+      "geometry": {
+        "bounds_m": [
+          0,
+          -0.0167005,
+          -0.0167005,
+          0.0254,
+          0.0167005,
+          0.0167005
+        ],
+        "cylinder_radii_m": [
+          0.0139319,
+          0.0167005
+        ],
+        "native_dimensions": {
+          "D1@Sketch1@PIPE 1 S10.Part": 0.0027686,
+          "D2@Sketch1@PIPE 1 S10.Part": 0.033401,
+          "D1@Boss-Extrude1@PIPE 1 S10.Part": 0.0254
+        },
+        "od_m": 0.033401,
+        "id_m": 0.0278638,
+        "wall_m": 0.0027685999999999995,
+        "length_m": 0.0254
+      },
+      "properties": {
+        "Customer": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Description": {
+          "raw": "PIPE, 1\" SC. 10, 1.00\" 304/304L",
+          "evaluated": "PIPE, 1\" SC. 10, 1.00\" 304/304L"
+        },
+        "Job Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "Item Number": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "DrawnBy": {
+          "raw": " ",
+          "evaluated": " "
+        },
+        "MakeOrBuy": {
+          "raw": "M",
+          "evaluated": "M"
+        },
+        "Material": {
+          "raw": "304/304L",
+          "evaluated": "304/304L"
+        },
+        "Part Description": {
+          "raw": "PIPE, 1\" SC. 10, 1.00\"",
+          "evaluated": "PIPE, 1\" SC. 10, 1.00\""
+        },
+        "Number": {
+          "raw": "PIPE 1 S10",
+          "evaluated": "PIPE 1 S10"
+        },
+        "Material ID": {
+          "raw": "06030612312",
+          "evaluated": "06030612312"
+        },
+        "MaterialQty": {
+          "raw": "1.00",
+          "evaluated": "1.00"
+        },
+        "Revision": {
+          "raw": "-",
+          "evaluated": "-"
+        }
+      },
+      "evidence": "C:\\Users\\mallard\\OneDrive - STAINLESS UNLIMITED, INC\\Documents\\CodexProjects\\Test1\\16186-262-02\\library-measurements.json",
+      "evidence_sha256": "d81e24d72ca199c52d6bcb8822e3c92b9f6518967fff2dc99cd82cefcff25f35",
+      "description": "PIPE, 1\" SC. 10, 1.00\" 304/304L",
+      "flags": [],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "notice": "SYNTHETIC PLANNING EXAMPLE ONLY. Not customer geometry or a manufacturing design.",
+  "pieces": [
+    "plain pipe A",
+    "plain pipe B",
+    "pipe C with opening"
+  ]
+}

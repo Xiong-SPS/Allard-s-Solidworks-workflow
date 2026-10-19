@@ -1,0 +1,192 @@
+{
+  "assembly": "PLANNING-DEMO",
+  "status": "incomplete",
+  "plan_sha256": "c381f8fd7d4ec1cf9b6037a044114a2a35ecf5495283495ab5c4d16674206183",
+  "assembly_sha256": null,
+  "unique_files": 2,
+  "occurrences": 3,
+  "parts": [
+    {
+      "id": "plain",
+      "file": "PLANNING-DEMO-01.SLDPRT",
+      "quantity": 2,
+      "mode": "copy",
+      "status": "ready",
+      "drawing_items": [
+        "1",
+        "2"
+      ],
+      "stock_length_m": 0.254,
+      "library_configuration": {
+        "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 3 S10.SLDPRT",
+        "configuration": "Default",
+        "sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02"
+      },
+      "end_features": [
+        {
+          "type": "plain",
+          "end": "start"
+        },
+        {
+          "type": "plain",
+          "end": "finish"
+        }
+      ],
+      "openings": [],
+      "placements": [
+        {
+          "id": "occ1",
+          "piece": "piece1",
+          "transform": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basis": "Synthetic example datum, illustrative only"
+        },
+        {
+          "id": "occ2",
+          "piece": "piece2",
+          "transform": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.4,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basis": "Synthetic example datum, illustrative only"
+        }
+      ]
+    },
+    {
+      "id": "opened",
+      "file": "PLANNING-DEMO-02.SLDPRT",
+      "quantity": 1,
+      "mode": "copy",
+      "status": "ready",
+      "drawing_items": [
+        "3"
+      ],
+      "stock_length_m": 0.254,
+      "library_configuration": {
+        "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 3 S10.SLDPRT",
+        "configuration": "Default",
+        "sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02"
+      },
+      "end_features": [
+        {
+          "type": "plain",
+          "end": "start"
+        },
+        {
+          "type": "plain",
+          "end": "finish"
+        }
+      ],
+      "openings": [
+        {
+          "type": "round",
+          "diameter_m": 0.02,
+          "local_center_m": [
+            0.127,
+            0,
+            0
+          ],
+          "local_axis": [
+            0,
+            1,
+            0
+          ],
+          "depth_basis": "through near wall; verify interior stop"
+        }
+      ],
+      "placements": [
+        {
+          "id": "occ3",
+          "piece": "piece3",
+          "transform": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.6000000000000001,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basis": "Synthetic example datum, illustrative only"
+        }
+      ]
+    }
+  ],
+  "verified_files": {},
+  "verified_job_parts": [],
+  "assembly_file": "C:\\Users\\mallard\\OneDrive - STAINLESS UNLIMITED, INC\\Documents\\CodexProjects\\Test1\\sps-workflow\\examples\\PLANNING-DEMO.SLDASM",
+  "decisions": [],
+  "errors": [
+    "Assembly occurrence count differs from the plan",
+    "Assembly verification must match the current plan/file and record a saved, open main assembly",
+    "Assembly verification: missing, changed or invalid evidence ([Errno 2] No such file or directory: 'C:\\\\Users\\\\mallard\\\\OneDrive - STAINLESS UNLIMITED, INC\\\\Documents\\\\CodexProjects\\\\Test1\\\\sps-workflow\\\\examples\\\\assembly-verification.json')",
+    "Record whether a BOM was created; an existing BOM needs its own order review",
+    "Record whether a batch was used; its final checkpoint is required when applicable",
+    "Saved main assembly is missing",
+    "connection_rules: explicit review with findings, reviewer and current plan/assembly/component hashes required",
+    "connection_rules: missing, changed or invalid evidence ([Errno 2] No such file or directory: 'C:\\\\Users\\\\mallard\\\\OneDrive - STAINLESS UNLIMITED, INC\\\\Documents\\\\CodexProjects\\\\Test1\\\\sps-workflow\\\\examples\\\\reviews\\\\connection_rules.json')",
+    "drawing_dimensions: explicit review with findings, reviewer and current plan/assembly/component hashes required",
+    "drawing_dimensions: missing, changed or invalid evidence ([Errno 2] No such file or directory: 'C:\\\\Users\\\\mallard\\\\OneDrive - STAINLESS UNLIMITED, INC\\\\Documents\\\\CodexProjects\\\\Test1\\\\sps-workflow\\\\examples\\\\reviews\\\\drawing_dimensions.json')",
+    "opened: native component file missing",
+    "plain: native component file missing",
+    "visual_review: explicit review with findings, reviewer and current plan/assembly/component hashes required",
+    "visual_review: missing, changed or invalid evidence ([Errno 2] No such file or directory: 'C:\\\\Users\\\\mallard\\\\OneDrive - STAINLESS UNLIMITED, INC\\\\Documents\\\\CodexProjects\\\\Test1\\\\sps-workflow\\\\examples\\\\reviews\\\\visual_review.json')"
+  ],
+  "warnings": [
+    "opened: Customer: fill known value; flag unknown",
+    "opened: Drawn By: fill known value; flag unknown",
+    "opened: Drawn Date: fill known value; flag unknown",
+    "opened: DrawnBy: fill known value; flag unknown",
+    "opened: Item Number: fill known value; flag unknown",
+    "opened: Job Number: fill known value; flag unknown",
+    "opened: Revision: fill known value; flag unknown",
+    "plain: Customer: fill known value; flag unknown",
+    "plain: Drawn By: fill known value; flag unknown",
+    "plain: Drawn Date: fill known value; flag unknown",
+    "plain: DrawnBy: fill known value; flag unknown",
+    "plain: Item Number: fill known value; flag unknown",
+    "plain: Job Number: fill known value; flag unknown",
+    "plain: Revision: fill known value; flag unknown"
+  ],
+  "physical_test": "CAD verification does not perform any required pressure/physical test.",
+  "scope": "Evidence integrity and recorded checks verified. Review reports remain responsible for engineering accuracy; unknown metadata stays flagged."
+}

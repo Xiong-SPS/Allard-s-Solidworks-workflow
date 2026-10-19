@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "source": "https://assets.victaulic.com/assets/uploads/literature/25.01.pdf",
+  "revision": "25.01 Rev T, updated 03/2026",
+  "reviewed_local_date": "2026-10-15",
+  "scope": "IPS OGS roll groove, standard/RX rolls; review applicable pipe material, wall, rolls and groove system for each job. Other systems and cut grooves are unsupported by this initial helper.",
+  "units": "inches",
+  "c_target_policy": "Use listed maximum C as the nominal CAD target, matching the approved prior jobs. The listed minimum C remains the manufacturing tolerance boundary.",
+  "profile_blend_radius_in": 0.03,
+  "profile_blend_provenance": "Existing SPS workflow native roll-groove modeling convention; not a claimed Victaulic table dimension.",
+  "entries": [
+    {
+      "nominal_size": "2.5",
+      "od": 2.875,
+      "a": 0.625,
+      "b": 0.344,
+      "c_max": 2.72,
+      "c_min": 2.702,
+      "minimum_wall": 0.078,
+      "pdf_page": 1
+    },
+    {
+      "nominal_size": "3",
+      "od": 3.5,
+      "a": 0.625,
+      "b": 0.344,
+      "c_max": 3.344,
+      "c_min": 3.326,
+      "minimum_wall": 0.078,
+      "pdf_page": 1
+    },
+    {
+      "nominal_size": "5",
+      "od": 5.563,
+      "a": 0.625,
+      "b": 0.344,
+      "c_max": 5.395,
+      "c_min": 5.373,
+      "minimum_wall": 0.078,
+      "pdf_page": 1
+    },
+    {
+      "nominal_size": "8",
+      "od": 8.625,
+      "a": 0.75,
+      "b": 0.469,
+      "c_max": 8.441,
+      "c_min": 8.416,
+      "minimum_wall": 0.109,
+      "pdf_page": 2
+    }
+  ],
+  "local_reference": "references/Victaulic Specifications.pdf",
+  "local_reference_sha256": "225c21a2a4af7fd0c4a9b7c5618109489d6856c5faa0dac4ec5a25c75468c112",
+  "reference_policy": "Use supplied local PDF for routine applicable groove checks; retain original publisher URL as provenance."
+}

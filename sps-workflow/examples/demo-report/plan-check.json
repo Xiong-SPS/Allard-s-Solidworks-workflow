@@ -1,0 +1,239 @@
+{
+  "assembly": "PLANNING-DEMO",
+  "context_notice": "Synthetic workflow demonstration only; no model is built.",
+  "status": "ready",
+  "parts": [
+    {
+      "id": "plain",
+      "file": "PLANNING-DEMO-01.SLDPRT",
+      "quantity": 2,
+      "mode": "copy",
+      "status": "ready",
+      "drawing_items": [
+        "1",
+        "2"
+      ],
+      "stock_length_m": 0.254,
+      "library_configuration": {
+        "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 3 S10.SLDPRT",
+        "configuration": "Default",
+        "sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02"
+      },
+      "end_features": [
+        {
+          "type": "plain",
+          "end": "start"
+        },
+        {
+          "type": "plain",
+          "end": "finish"
+        }
+      ],
+      "openings": [],
+      "placements": [
+        {
+          "id": "occ1",
+          "piece": "piece1",
+          "transform": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basis": "Synthetic example datum, illustrative only"
+        },
+        {
+          "id": "occ2",
+          "piece": "piece2",
+          "transform": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.4,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basis": "Synthetic example datum, illustrative only"
+        }
+      ]
+    },
+    {
+      "id": "opened",
+      "file": "PLANNING-DEMO-02.SLDPRT",
+      "quantity": 1,
+      "mode": "copy",
+      "status": "ready",
+      "drawing_items": [
+        "3"
+      ],
+      "stock_length_m": 0.254,
+      "library_configuration": {
+        "path": "C:\\SPS\\Libraries\\SolidWorks Fittings\\PIPE MODELS\\PIPE BLANKS\\PIPE 3 S10.SLDPRT",
+        "configuration": "Default",
+        "sha256": "3c86f97997ddef11e6432feb6543d26f2fa6e86b90a0e67a76c589b09143fd02"
+      },
+      "end_features": [
+        {
+          "type": "plain",
+          "end": "start"
+        },
+        {
+          "type": "plain",
+          "end": "finish"
+        }
+      ],
+      "openings": [
+        {
+          "type": "round",
+          "diameter_m": 0.02,
+          "local_center_m": [
+            0.127,
+            0,
+            0
+          ],
+          "local_axis": [
+            0,
+            1,
+            0
+          ],
+          "depth_basis": "through near wall; verify interior stop"
+        }
+      ],
+      "placements": [
+        {
+          "id": "occ3",
+          "piece": "piece3",
+          "transform": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0.6000000000000001,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basis": "Synthetic example datum, illustrative only"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Customer: fill known value; flag unknown",
+      "part": "plain"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Job Number: fill known value; flag unknown",
+      "part": "plain"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Item Number: fill known value; flag unknown",
+      "part": "plain"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "DrawnBy: fill known value; flag unknown",
+      "part": "plain"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Drawn By: fill known value; flag unknown",
+      "part": "plain"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Drawn Date: fill known value; flag unknown",
+      "part": "plain"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Revision: fill known value; flag unknown",
+      "part": "plain"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Customer: fill known value; flag unknown",
+      "part": "opened"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Job Number: fill known value; flag unknown",
+      "part": "opened"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Item Number: fill known value; flag unknown",
+      "part": "opened"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "DrawnBy: fill known value; flag unknown",
+      "part": "opened"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Drawn By: fill known value; flag unknown",
+      "part": "opened"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Drawn Date: fill known value; flag unknown",
+      "part": "opened"
+    },
+    {
+      "level": "warning",
+      "code": "unknown_property",
+      "message": "Revision: fill known value; flag unknown",
+      "part": "opened"
+    }
+  ],
+  "reuse_candidates": [],
+  "notice": "Planning checks only. Native geometry, properties, rebuild and placement verification remain required. Reuse candidates require review; no files are merged."
+}

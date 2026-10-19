@@ -1,0 +1,17 @@
+PDM flange search card test — 2026-10-13
+
+Vault session: logged in as mallard; search path C:\SPS\Libraries\SolidWorks Fittings\FLANGES\.
+Fields exposed: OD/SQ, ID, BC Diameter, Thickness, Bolt Hole Diameter, Slotted?, Grooved?, A.K.A.
+
+OD/SQ=15 returned four files:
+F4OEM1500.SLDPRT
+F4OEM1500X868.SLDPRT
+F4OEM1503.SLDPRT
+F4OEM1504.SLDPRT
+
+Adding BC Diameter=13 narrowed to F4OEM1500X868.SLDPRT and F4OEM1503.SLDPRT.
+Local recursive filename listing found F4OEM1500 and F4OEM1503 in F_OEM but did not find F4OEM1500X868. PDM can expose candidates absent from the current local listing.
+Adding bore 8.6875, bolt-hole diameter 1, and thickness 0.625 returned no results. Removing bore still returned no results. Testing thickness .625 also returned no results. Removing thickness and retaining bolt-hole diameter 1 still returned no results.
+Thus neither candidate is verified as an exact match for the recent assembly. No production models or library parts were modified.
+
+Recommendation: use this search card first to discover flange candidates by broad OD and bolt-circle dimensions; narrow progressively and check configuration-specific properties and actual geometry before reuse. A no-result metadata search does not establish absence of a suitable flange. Hole count is not exposed as a search field on this card and requires separate verification. Material, thickness, bore, facing/groove, hole count/diameter, clocking, and stock metadata must be checked before selection.

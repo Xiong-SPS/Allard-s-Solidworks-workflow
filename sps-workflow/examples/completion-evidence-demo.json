@@ -1,0 +1,41 @@
+{
+  "plan_sha256": "c381f8fd7d4ec1cf9b6037a044114a2a35ecf5495283495ab5c4d16674206183",
+  "bom_created": null,
+  "parts": {
+    "plain": {
+      "path": "PLANNING-DEMO-01.SLDPRT.verification.json",
+      "sha256": ""
+    },
+    "opened": {
+      "path": "PLANNING-DEMO-02.SLDPRT.verification.json",
+      "sha256": ""
+    }
+  },
+  "assembly": {
+    "path": "assembly-verification.json",
+    "sha256": ""
+  },
+  "reviews": {
+    "drawing_dimensions": {
+      "path": "reviews/drawing_dimensions.json",
+      "sha256": ""
+    },
+    "connection_rules": {
+      "path": "reviews/connection_rules.json",
+      "sha256": ""
+    },
+    "visual_review": {
+      "path": "reviews/visual_review.json",
+      "sha256": ""
+    },
+    "bom_order": {
+      "path": "reviews/bom_order.json",
+      "sha256": ""
+    }
+  },
+  "batch_used": null,
+  "batch": {
+    "path": "final-batch-checkpoint.json",
+    "sha256": ""
+  }
+}

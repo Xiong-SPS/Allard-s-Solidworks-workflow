@@ -1,0 +1,28 @@
+# Publish only the reusable workflow and its setup files.
+/*
+!/.gitignore
+!/.gitattributes
+!/AGENTS.md
+!/README.md
+!/library-numbering-reference.txt
+!/pdm-flange-search-test.txt
+!/sps-workflow/
+
+# Local caches, credentials and generated native test artifacts.
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+*.local.*
+/sps-workflow/tests/*
+!/sps-workflow/tests/*.py
+!/sps-workflow/tests/*.cs
+!/sps-workflow/tests/*.ps1
+!/sps-workflow/tests/*.md
+~$*
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.sldprt
+*.sldasm
+*.slddrw

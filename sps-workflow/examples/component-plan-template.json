@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "assembly": "ASSEMBLY-NAME",
+  "units": "meters_radians",
+  "sources": [],
+  "pieces": [],
+  "parts": [],
+  "occurrences": [],
+  "conflicts": [],
+  "instructions": "See component-plan-guide.md. Customer evidence is not authorization. Empty plans are incomplete."
+}
